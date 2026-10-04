@@ -1,0 +1,150 @@
+.traffic-demo {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: auto minmax(0, 1fr);
+  color: #21312c;
+  background: #f4f5f2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.traffic-header {
+  display: flex;
+  min-height: 66px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 16px;
+  border-bottom: 1px solid #d9dfdb;
+  background: #fff;
+}
+
+.traffic-header h1 {
+  margin: 0 0 2px;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.25;
+}
+
+.traffic-header p {
+  margin: 0;
+  color: #5e6a65;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.traffic-count {
+  flex: 0 0 auto;
+  color: #53635c;
+  font-size: 12px;
+  text-align: right;
+}
+
+.traffic-map {
+  position: relative;
+  min-height: 0;
+}
+
+.traffic-map-canvas {
+  position: absolute;
+  inset: 0;
+  background: #e6eae5;
+}
+
+.volume-legend {
+  position: absolute;
+  z-index: 500;
+  bottom: 22px;
+  left: 12px;
+  width: 198px;
+  padding: 11px 12px;
+  border: 1px solid rgb(32 49 43 / 12%);
+  border-radius: 8px;
+  background: rgb(255 255 255 / 96%);
+  box-shadow: 0 2px 12px rgb(20 35 28 / 12%);
+  font-size: 12px;
+}
+
+.volume-legend > strong {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+
+.volume-legend-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0;
+  color: #4e5b56;
+}
+
+.volume-legend-row i {
+  width: 18px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.volume-legend p {
+  margin: 9px 0 0;
+  color: #69746f;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.traffic-credit {
+  position: absolute;
+  z-index: 500;
+  right: 12px;
+  bottom: 12px;
+  padding: 4px 7px;
+  border-radius: 4px;
+  background: rgb(255 255 255 / 88%);
+  color: #53635c;
+  font-size: 10px;
+}
+
+.traffic-credit a {
+  color: inherit;
+}
+
+.volume-popup {
+  min-width: 180px;
+  font: 12px/1.45 system-ui, sans-serif;
+}
+
+.volume-popup strong {
+  font-size: 13px;
+}
+
+.volume-popup p {
+  margin: 5px 0 0;
+}
+
+.volume-popup ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+
+@media (max-width: 600px) {
+  .traffic-header {
+    align-items: flex-start;
+    gap: 10px;
+    padding: 9px 11px;
+  }
+
+  .traffic-header h1 {
+    font-size: 15px;
+  }
+
+  .traffic-header p,
+  .traffic-count {
+    font-size: 10px;
+  }
+
+  .volume-legend {
+    bottom: 18px;
+    width: 174px;
+    padding: 9px 10px;
+  }
+}

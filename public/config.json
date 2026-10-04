@@ -1,0 +1,51 @@
+{
+  "riskDistanceMeters": 100,
+  "riskRates": {
+    "protectedBikeLane": 0,
+    "stayHealthyStreet": 0,
+    "bicycleFootway": 0,
+    "neighborhoodGreenway": 1,
+    "neighborhoodStreet": 5,
+    "localStreet": 10,
+    "arterialStreet": 120,
+    "arterialNonProtectedBikeLane": 10,
+    "nonProtectedBikeLane": 3,
+    "sharrow": 15,
+    "parkingAisle": 3,
+    "otherRoad": 5,
+    "arterialOrHighway": 200
+  },
+  "roadTypeRules": {
+    "neighborhoodMaxLanes": 1,
+    "arterialMinLanes": 2,
+    "arterialMinSpeedMph": 30,
+    "arterialStreetTypes": [
+      "primary",
+      "primary_link",
+      "secondary",
+      "secondary_link",
+      "tertiary",
+      "tertiary_link"
+    ]
+  },
+  "colorThresholds": {
+    "greenMax": 50,
+    "yellowMax": 100,
+    "orangeMax": 200
+  },
+  "colors": {
+    "green": "#008f6c",
+    "yellow": "#d89b11",
+    "orange": "#e47a31",
+    "red": "#d84d45"
+  },
+  "reachabilityDisplay": {
+    "maxDistanceMiles": 5,
+    "legendMaxMiles": 10,
+    "distanceBandsMiles": [0.5, 1, 2, 5],
+    "colors": ["#d84d45", "#e47a31", "#d89b11", "#79a96b", "#008f6c"],
+    "title": "Safe bikeable distance",
+    "subtitle": "Roads are colored by how much of Seattle is within a safe biking distance.",
+    "helpText": "This page calculates how much of Seattle is reachable by bike without traveling on high-risk roads. Every road segment is assigned a risk score and the simulation determines how far you can travel from every starting point in Seattle on low-risk routes. To assign risk we assumed that separated paths, protected bike lanes, and Stay Healthy Streets are 'all-ages all-abilities' facilities. Greenways and unprotected bike lanes are moderate risk; unprotected bike lanes on arterials receive a higher risk score. Local streets and sharrows are higher risk, and arterials without a bike lane or highways are treated as high risk. The simulation accumulates risk, since even traveling on relatively low-risk roads your chance of a crash increases with distance."
+  }
+}

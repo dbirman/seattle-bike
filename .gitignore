@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Large Seattle traffic source exports and derived research tables stay local.
+/data/seattle-traffic/source/
+/data/seattle-traffic/parquet/
+/data/seattle-traffic/traffic-counts-by-study.csv
+/data/seattle-traffic/traffic-count-study-types.csv
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

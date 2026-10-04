@@ -1,0 +1,3163 @@
+[ {
+  "id" : 570380017,
+  "name" : "STATISTIC_ID",
+  "dataTypeName" : "number",
+  "description" : "Unique ID for each day of each study",
+  "fieldName" : "statistic_id",
+  "position" : 1,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253527,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "574114",
+    "null" : "0",
+    "top" : [ {
+      "item" : "461061",
+      "count" : "1"
+    }, {
+      "item" : "366961",
+      "count" : "1"
+    }, {
+      "item" : "174466",
+      "count" : "1"
+    }, {
+      "item" : "533497",
+      "count" : "1"
+    }, {
+      "item" : "547833",
+      "count" : "1"
+    }, {
+      "item" : "187197",
+      "count" : "1"
+    }, {
+      "item" : "491939",
+      "count" : "1"
+    }, {
+      "item" : "394683",
+      "count" : "1"
+    }, {
+      "item" : "545836",
+      "count" : "1"
+    }, {
+      "item" : "558507",
+      "count" : "1"
+    }, {
+      "item" : "524991",
+      "count" : "1"
+    }, {
+      "item" : "212959",
+      "count" : "1"
+    }, {
+      "item" : "475865",
+      "count" : "1"
+    }, {
+      "item" : "311471",
+      "count" : "1"
+    }, {
+      "item" : "226229",
+      "count" : "1"
+    }, {
+      "item" : "171533",
+      "count" : "1"
+    }, {
+      "item" : "99817",
+      "count" : "1"
+    }, {
+      "item" : "92845",
+      "count" : "1"
+    }, {
+      "item" : "108093",
+      "count" : "1"
+    }, {
+      "item" : "282804",
+      "count" : "1"
+    } ],
+    "smallest" : "32640",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380043,
+  "name" : "STUDY_ID",
+  "dataTypeName" : "number",
+  "description" : "Unique ID for each study. Most studies are seven days long and thus in this table as seven rows, one per day.",
+  "fieldName" : "study_id",
+  "position" : 2,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253553,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "351572",
+    "null" : "0",
+    "top" : [ {
+      "item" : "208185",
+      "count" : "7"
+    }, {
+      "item" : "201395",
+      "count" : "7"
+    }, {
+      "item" : "213442",
+      "count" : "7"
+    }, {
+      "item" : "322808",
+      "count" : "7"
+    }, {
+      "item" : "205179",
+      "count" : "7"
+    }, {
+      "item" : "200375",
+      "count" : "7"
+    }, {
+      "item" : "349778",
+      "count" : "7"
+    }, {
+      "item" : "344361",
+      "count" : "7"
+    }, {
+      "item" : "335001",
+      "count" : "7"
+    }, {
+      "item" : "303140",
+      "count" : "7"
+    }, {
+      "item" : "350913",
+      "count" : "7"
+    }, {
+      "item" : "313516",
+      "count" : "7"
+    }, {
+      "item" : "323377",
+      "count" : "7"
+    }, {
+      "item" : "210096",
+      "count" : "7"
+    }, {
+      "item" : "91383",
+      "count" : "7"
+    }, {
+      "item" : "336850",
+      "count" : "7"
+    }, {
+      "item" : "214234",
+      "count" : "7"
+    }, {
+      "item" : "206739",
+      "count" : "7"
+    }, {
+      "item" : "212959",
+      "count" : "7"
+    }, {
+      "item" : "339658",
+      "count" : "7"
+    } ],
+    "smallest" : "72948",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380030,
+  "name" : "WEEKDAY",
+  "dataTypeName" : "number",
+  "description" : "Day of the week (1-7)",
+  "fieldName" : "weekday",
+  "position" : 3,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253540,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "7",
+    "null" : "0",
+    "top" : [ {
+      "item" : "1",
+      "count" : "64312"
+    }, {
+      "item" : "2",
+      "count" : "64312"
+    }, {
+      "item" : "3",
+      "count" : "64312"
+    }, {
+      "item" : "4",
+      "count" : "64312"
+    }, {
+      "item" : "5",
+      "count" : "64312"
+    }, {
+      "item" : "6",
+      "count" : "64312"
+    }, {
+      "item" : "7",
+      "count" : "64312"
+    } ],
+    "smallest" : "1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380022,
+  "name" : "HOLIDAY_YN",
+  "dataTypeName" : "text",
+  "description" : "",
+  "fieldName" : "holiday_yn",
+  "position" : 4,
+  "renderTypeName" : "text",
+  "tableColumnId" : 145253532,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "Y",
+    "null" : "0",
+    "top" : [ {
+      "item" : "N",
+      "count" : "443881"
+    }, {
+      "item" : "Y",
+      "count" : "6303"
+    } ],
+    "smallest" : "N",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380036,
+  "name" : "TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for the day",
+  "fieldName" : "total",
+  "position" : 5,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253546,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "512958",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "6255"
+    }, {
+      "item" : "0",
+      "count" : "329"
+    }, {
+      "item" : "111",
+      "count" : "102"
+    }, {
+      "item" : "145",
+      "count" : "98"
+    }, {
+      "item" : "240",
+      "count" : "97"
+    }, {
+      "item" : "139",
+      "count" : "96"
+    }, {
+      "item" : "128",
+      "count" : "94"
+    }, {
+      "item" : "178",
+      "count" : "94"
+    }, {
+      "item" : "89",
+      "count" : "93"
+    }, {
+      "item" : "114",
+      "count" : "92"
+    }, {
+      "item" : "110",
+      "count" : "92"
+    }, {
+      "item" : "115",
+      "count" : "91"
+    }, {
+      "item" : "136",
+      "count" : "89"
+    }, {
+      "item" : "104",
+      "count" : "89"
+    }, {
+      "item" : "186",
+      "count" : "88"
+    }, {
+      "item" : "399",
+      "count" : "88"
+    }, {
+      "item" : "72",
+      "count" : "87"
+    }, {
+      "item" : "112",
+      "count" : "87"
+    }, {
+      "item" : "156",
+      "count" : "87"
+    }, {
+      "item" : "170",
+      "count" : "85"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380021,
+  "name" : "HR01_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. Midnight to 1 AM",
+  "fieldName" : "hr01_total",
+  "position" : 6,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253531,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "10813",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "11751"
+    }, {
+      "item" : "1",
+      "count" : "9325"
+    }, {
+      "item" : "2",
+      "count" : "7986"
+    }, {
+      "item" : "3",
+      "count" : "6860"
+    }, {
+      "item" : "4",
+      "count" : "6412"
+    }, {
+      "item" : "5",
+      "count" : "5725"
+    }, {
+      "item" : "-1",
+      "count" : "5631"
+    }, {
+      "item" : "6",
+      "count" : "5599"
+    }, {
+      "item" : "8",
+      "count" : "5071"
+    }, {
+      "item" : "7",
+      "count" : "5067"
+    }, {
+      "item" : "9",
+      "count" : "4677"
+    }, {
+      "item" : "10",
+      "count" : "4577"
+    }, {
+      "item" : "11",
+      "count" : "4474"
+    }, {
+      "item" : "12",
+      "count" : "4339"
+    }, {
+      "item" : "13",
+      "count" : "4294"
+    }, {
+      "item" : "14",
+      "count" : "4182"
+    }, {
+      "item" : "15",
+      "count" : "4091"
+    }, {
+      "item" : "16",
+      "count" : "3985"
+    }, {
+      "item" : "17",
+      "count" : "3983"
+    }, {
+      "item" : "18",
+      "count" : "3795"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380027,
+  "name" : "HR02_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 1 AM to 2 AM",
+  "fieldName" : "hr02_total",
+  "position" : 7,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253537,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "21762",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "16396"
+    }, {
+      "item" : "1",
+      "count" : "13237"
+    }, {
+      "item" : "2",
+      "count" : "11074"
+    }, {
+      "item" : "3",
+      "count" : "9342"
+    }, {
+      "item" : "4",
+      "count" : "8663"
+    }, {
+      "item" : "5",
+      "count" : "7897"
+    }, {
+      "item" : "6",
+      "count" : "7455"
+    }, {
+      "item" : "7",
+      "count" : "7023"
+    }, {
+      "item" : "8",
+      "count" : "6936"
+    }, {
+      "item" : "9",
+      "count" : "6535"
+    }, {
+      "item" : "10",
+      "count" : "6373"
+    }, {
+      "item" : "11",
+      "count" : "6110"
+    }, {
+      "item" : "12",
+      "count" : "5923"
+    }, {
+      "item" : "13",
+      "count" : "5782"
+    }, {
+      "item" : "14",
+      "count" : "5678"
+    }, {
+      "item" : "-1",
+      "count" : "5642"
+    }, {
+      "item" : "16",
+      "count" : "5480"
+    }, {
+      "item" : "15",
+      "count" : "5466"
+    }, {
+      "item" : "17",
+      "count" : "5289"
+    }, {
+      "item" : "18",
+      "count" : "5176"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380031,
+  "name" : "HR03_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 2 AM to 3 AM",
+  "fieldName" : "hr03_total",
+  "position" : 8,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253541,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "6158",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "19958"
+    }, {
+      "item" : "1",
+      "count" : "16015"
+    }, {
+      "item" : "2",
+      "count" : "14050"
+    }, {
+      "item" : "3",
+      "count" : "11429"
+    }, {
+      "item" : "4",
+      "count" : "10672"
+    }, {
+      "item" : "5",
+      "count" : "9655"
+    }, {
+      "item" : "6",
+      "count" : "9214"
+    }, {
+      "item" : "7",
+      "count" : "8485"
+    }, {
+      "item" : "8",
+      "count" : "8354"
+    }, {
+      "item" : "9",
+      "count" : "7779"
+    }, {
+      "item" : "10",
+      "count" : "7596"
+    }, {
+      "item" : "11",
+      "count" : "7262"
+    }, {
+      "item" : "12",
+      "count" : "7109"
+    }, {
+      "item" : "13",
+      "count" : "6761"
+    }, {
+      "item" : "14",
+      "count" : "6560"
+    }, {
+      "item" : "15",
+      "count" : "6239"
+    }, {
+      "item" : "16",
+      "count" : "6138"
+    }, {
+      "item" : "18",
+      "count" : "5831"
+    }, {
+      "item" : "17",
+      "count" : "5819"
+    }, {
+      "item" : "-1",
+      "count" : "5670"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380044,
+  "name" : "HR04_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 3 AM to 4 AM",
+  "fieldName" : "hr04_total",
+  "position" : 9,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253554,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "5392",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "23377"
+    }, {
+      "item" : "1",
+      "count" : "18529"
+    }, {
+      "item" : "2",
+      "count" : "16066"
+    }, {
+      "item" : "3",
+      "count" : "13417"
+    }, {
+      "item" : "4",
+      "count" : "12634"
+    }, {
+      "item" : "5",
+      "count" : "11379"
+    }, {
+      "item" : "6",
+      "count" : "10752"
+    }, {
+      "item" : "7",
+      "count" : "10055"
+    }, {
+      "item" : "8",
+      "count" : "9934"
+    }, {
+      "item" : "9",
+      "count" : "9322"
+    }, {
+      "item" : "10",
+      "count" : "9294"
+    }, {
+      "item" : "12",
+      "count" : "8579"
+    }, {
+      "item" : "11",
+      "count" : "8577"
+    }, {
+      "item" : "13",
+      "count" : "8055"
+    }, {
+      "item" : "14",
+      "count" : "7925"
+    }, {
+      "item" : "15",
+      "count" : "7448"
+    }, {
+      "item" : "16",
+      "count" : "7188"
+    }, {
+      "item" : "17",
+      "count" : "6939"
+    }, {
+      "item" : "18",
+      "count" : "6785"
+    }, {
+      "item" : "19",
+      "count" : "6207"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380045,
+  "name" : "HR05_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 4 AM to 5 AM",
+  "fieldName" : "hr05_total",
+  "position" : 10,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253555,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "6100",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "17216"
+    }, {
+      "item" : "1",
+      "count" : "14809"
+    }, {
+      "item" : "2",
+      "count" : "13288"
+    }, {
+      "item" : "3",
+      "count" : "10910"
+    }, {
+      "item" : "4",
+      "count" : "10335"
+    }, {
+      "item" : "5",
+      "count" : "8978"
+    }, {
+      "item" : "6",
+      "count" : "8965"
+    }, {
+      "item" : "7",
+      "count" : "8230"
+    }, {
+      "item" : "8",
+      "count" : "8156"
+    }, {
+      "item" : "9",
+      "count" : "7652"
+    }, {
+      "item" : "10",
+      "count" : "7487"
+    }, {
+      "item" : "12",
+      "count" : "7217"
+    }, {
+      "item" : "11",
+      "count" : "7137"
+    }, {
+      "item" : "14",
+      "count" : "6816"
+    }, {
+      "item" : "13",
+      "count" : "6793"
+    }, {
+      "item" : "15",
+      "count" : "6647"
+    }, {
+      "item" : "16",
+      "count" : "6476"
+    }, {
+      "item" : "18",
+      "count" : "6366"
+    }, {
+      "item" : "17",
+      "count" : "6249"
+    }, {
+      "item" : "20",
+      "count" : "6082"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380028,
+  "name" : "HR06_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 5 AM to 6 AM",
+  "fieldName" : "hr06_total",
+  "position" : 11,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253538,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "12264",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "9795"
+    }, {
+      "item" : "1",
+      "count" : "8681"
+    }, {
+      "item" : "2",
+      "count" : "8104"
+    }, {
+      "item" : "3",
+      "count" : "6991"
+    }, {
+      "item" : "4",
+      "count" : "6426"
+    }, {
+      "item" : "-1",
+      "count" : "5640"
+    }, {
+      "item" : "5",
+      "count" : "5627"
+    }, {
+      "item" : "6",
+      "count" : "5318"
+    }, {
+      "item" : "7",
+      "count" : "5028"
+    }, {
+      "item" : "8",
+      "count" : "4870"
+    }, {
+      "item" : "9",
+      "count" : "4525"
+    }, {
+      "item" : "10",
+      "count" : "4309"
+    }, {
+      "item" : "12",
+      "count" : "4201"
+    }, {
+      "item" : "11",
+      "count" : "4178"
+    }, {
+      "item" : "13",
+      "count" : "4068"
+    }, {
+      "item" : "14",
+      "count" : "3935"
+    }, {
+      "item" : "16",
+      "count" : "3881"
+    }, {
+      "item" : "15",
+      "count" : "3875"
+    }, {
+      "item" : "18",
+      "count" : "3796"
+    }, {
+      "item" : "17",
+      "count" : "3705"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380037,
+  "name" : "HR07_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 6 AM to 7 AM",
+  "fieldName" : "hr07_total",
+  "position" : 12,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253547,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "24727",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5646"
+    }, {
+      "item" : "0",
+      "count" : "5020"
+    }, {
+      "item" : "2",
+      "count" : "4550"
+    }, {
+      "item" : "1",
+      "count" : "4477"
+    }, {
+      "item" : "3",
+      "count" : "4210"
+    }, {
+      "item" : "4",
+      "count" : "3983"
+    }, {
+      "item" : "5",
+      "count" : "3396"
+    }, {
+      "item" : "6",
+      "count" : "3283"
+    }, {
+      "item" : "7",
+      "count" : "3068"
+    }, {
+      "item" : "8",
+      "count" : "3013"
+    }, {
+      "item" : "9",
+      "count" : "2695"
+    }, {
+      "item" : "10",
+      "count" : "2687"
+    }, {
+      "item" : "13",
+      "count" : "2497"
+    }, {
+      "item" : "11",
+      "count" : "2478"
+    }, {
+      "item" : "12",
+      "count" : "2350"
+    }, {
+      "item" : "14",
+      "count" : "2343"
+    }, {
+      "item" : "16",
+      "count" : "2178"
+    }, {
+      "item" : "15",
+      "count" : "2159"
+    }, {
+      "item" : "18",
+      "count" : "2119"
+    }, {
+      "item" : "17",
+      "count" : "2106"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380024,
+  "name" : "HR08_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 7 AM to 8 AM",
+  "fieldName" : "hr08_total",
+  "position" : 13,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253534,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "34668",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5643"
+    }, {
+      "item" : "0",
+      "count" : "2715"
+    }, {
+      "item" : "2",
+      "count" : "2326"
+    }, {
+      "item" : "3",
+      "count" : "2293"
+    }, {
+      "item" : "4",
+      "count" : "2266"
+    }, {
+      "item" : "1",
+      "count" : "2167"
+    }, {
+      "item" : "5",
+      "count" : "2162"
+    }, {
+      "item" : "6",
+      "count" : "2054"
+    }, {
+      "item" : "8",
+      "count" : "1951"
+    }, {
+      "item" : "7",
+      "count" : "1910"
+    }, {
+      "item" : "9",
+      "count" : "1835"
+    }, {
+      "item" : "10",
+      "count" : "1733"
+    }, {
+      "item" : "11",
+      "count" : "1709"
+    }, {
+      "item" : "12",
+      "count" : "1601"
+    }, {
+      "item" : "13",
+      "count" : "1573"
+    }, {
+      "item" : "14",
+      "count" : "1557"
+    }, {
+      "item" : "15",
+      "count" : "1503"
+    }, {
+      "item" : "16",
+      "count" : "1479"
+    }, {
+      "item" : "18",
+      "count" : "1414"
+    }, {
+      "item" : "17",
+      "count" : "1384"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380008,
+  "name" : "HR09_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 8 AM to 9 AM",
+  "fieldName" : "hr09_total",
+  "position" : 14,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253518,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "35896",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5642"
+    }, {
+      "item" : "0",
+      "count" : "1911"
+    }, {
+      "item" : "6",
+      "count" : "1627"
+    }, {
+      "item" : "4",
+      "count" : "1592"
+    }, {
+      "item" : "3",
+      "count" : "1565"
+    }, {
+      "item" : "8",
+      "count" : "1558"
+    }, {
+      "item" : "5",
+      "count" : "1554"
+    }, {
+      "item" : "2",
+      "count" : "1451"
+    }, {
+      "item" : "7",
+      "count" : "1449"
+    }, {
+      "item" : "9",
+      "count" : "1427"
+    }, {
+      "item" : "10",
+      "count" : "1387"
+    }, {
+      "item" : "12",
+      "count" : "1386"
+    }, {
+      "item" : "11",
+      "count" : "1341"
+    }, {
+      "item" : "13",
+      "count" : "1297"
+    }, {
+      "item" : "14",
+      "count" : "1280"
+    }, {
+      "item" : "15",
+      "count" : "1248"
+    }, {
+      "item" : "16",
+      "count" : "1240"
+    }, {
+      "item" : "17",
+      "count" : "1201"
+    }, {
+      "item" : "1",
+      "count" : "1170"
+    }, {
+      "item" : "18",
+      "count" : "1168"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380023,
+  "name" : "HR10_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 9 AM to 10 AM",
+  "fieldName" : "hr10_total",
+  "position" : 15,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253533,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "29227",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5698"
+    }, {
+      "item" : "0",
+      "count" : "1696"
+    }, {
+      "item" : "7",
+      "count" : "1557"
+    }, {
+      "item" : "6",
+      "count" : "1533"
+    }, {
+      "item" : "10",
+      "count" : "1469"
+    }, {
+      "item" : "4",
+      "count" : "1462"
+    }, {
+      "item" : "5",
+      "count" : "1453"
+    }, {
+      "item" : "9",
+      "count" : "1437"
+    }, {
+      "item" : "8",
+      "count" : "1434"
+    }, {
+      "item" : "3",
+      "count" : "1385"
+    }, {
+      "item" : "11",
+      "count" : "1345"
+    }, {
+      "item" : "13",
+      "count" : "1316"
+    }, {
+      "item" : "12",
+      "count" : "1303"
+    }, {
+      "item" : "15",
+      "count" : "1276"
+    }, {
+      "item" : "14",
+      "count" : "1247"
+    }, {
+      "item" : "2",
+      "count" : "1239"
+    }, {
+      "item" : "16",
+      "count" : "1183"
+    }, {
+      "item" : "17",
+      "count" : "1167"
+    }, {
+      "item" : "18",
+      "count" : "1143"
+    }, {
+      "item" : "20",
+      "count" : "1077"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380038,
+  "name" : "HR11_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 10 AM to 11 AM",
+  "fieldName" : "hr11_total",
+  "position" : 16,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253548,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "25538",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5675"
+    }, {
+      "item" : "0",
+      "count" : "1594"
+    }, {
+      "item" : "10",
+      "count" : "1516"
+    }, {
+      "item" : "8",
+      "count" : "1493"
+    }, {
+      "item" : "6",
+      "count" : "1441"
+    }, {
+      "item" : "5",
+      "count" : "1439"
+    }, {
+      "item" : "7",
+      "count" : "1434"
+    }, {
+      "item" : "9",
+      "count" : "1405"
+    }, {
+      "item" : "11",
+      "count" : "1388"
+    }, {
+      "item" : "4",
+      "count" : "1379"
+    }, {
+      "item" : "12",
+      "count" : "1349"
+    }, {
+      "item" : "13",
+      "count" : "1322"
+    }, {
+      "item" : "3",
+      "count" : "1274"
+    }, {
+      "item" : "14",
+      "count" : "1251"
+    }, {
+      "item" : "15",
+      "count" : "1213"
+    }, {
+      "item" : "16",
+      "count" : "1175"
+    }, {
+      "item" : "20",
+      "count" : "1133"
+    }, {
+      "item" : "17",
+      "count" : "1131"
+    }, {
+      "item" : "18",
+      "count" : "1120"
+    }, {
+      "item" : "2",
+      "count" : "1119"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380015,
+  "name" : "HR12_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 11 AM to Noon",
+  "fieldName" : "hr12_total",
+  "position" : 17,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253525,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "27648",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5662"
+    }, {
+      "item" : "7",
+      "count" : "1347"
+    }, {
+      "item" : "6",
+      "count" : "1338"
+    }, {
+      "item" : "12",
+      "count" : "1325"
+    }, {
+      "item" : "8",
+      "count" : "1321"
+    }, {
+      "item" : "10",
+      "count" : "1321"
+    }, {
+      "item" : "11",
+      "count" : "1309"
+    }, {
+      "item" : "4",
+      "count" : "1282"
+    }, {
+      "item" : "9",
+      "count" : "1263"
+    }, {
+      "item" : "13",
+      "count" : "1255"
+    }, {
+      "item" : "5",
+      "count" : "1250"
+    }, {
+      "item" : "0",
+      "count" : "1224"
+    }, {
+      "item" : "14",
+      "count" : "1216"
+    }, {
+      "item" : "16",
+      "count" : "1161"
+    }, {
+      "item" : "18",
+      "count" : "1139"
+    }, {
+      "item" : "3",
+      "count" : "1123"
+    }, {
+      "item" : "17",
+      "count" : "1100"
+    }, {
+      "item" : "15",
+      "count" : "1084"
+    }, {
+      "item" : "20",
+      "count" : "1050"
+    }, {
+      "item" : "21",
+      "count" : "1023"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380013,
+  "name" : "HR13_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. Noon to 1 PM",
+  "fieldName" : "hr13_total",
+  "position" : 18,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253523,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "28749",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5600"
+    }, {
+      "item" : "0",
+      "count" : "1349"
+    }, {
+      "item" : "10",
+      "count" : "1223"
+    }, {
+      "item" : "8",
+      "count" : "1222"
+    }, {
+      "item" : "12",
+      "count" : "1212"
+    }, {
+      "item" : "9",
+      "count" : "1207"
+    }, {
+      "item" : "6",
+      "count" : "1205"
+    }, {
+      "item" : "11",
+      "count" : "1201"
+    }, {
+      "item" : "13",
+      "count" : "1200"
+    }, {
+      "item" : "7",
+      "count" : "1180"
+    }, {
+      "item" : "5",
+      "count" : "1130"
+    }, {
+      "item" : "16",
+      "count" : "1115"
+    }, {
+      "item" : "14",
+      "count" : "1100"
+    }, {
+      "item" : "15",
+      "count" : "1081"
+    }, {
+      "item" : "4",
+      "count" : "1050"
+    }, {
+      "item" : "17",
+      "count" : "1019"
+    }, {
+      "item" : "3",
+      "count" : "1004"
+    }, {
+      "item" : "20",
+      "count" : "997"
+    }, {
+      "item" : "18",
+      "count" : "994"
+    }, {
+      "item" : "21",
+      "count" : "994"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380033,
+  "name" : "HR14_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 1 PM to 2 PM",
+  "fieldName" : "hr14_total",
+  "position" : 19,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253543,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "29510",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5573"
+    }, {
+      "item" : "0",
+      "count" : "1285"
+    }, {
+      "item" : "10",
+      "count" : "1253"
+    }, {
+      "item" : "8",
+      "count" : "1222"
+    }, {
+      "item" : "11",
+      "count" : "1209"
+    }, {
+      "item" : "12",
+      "count" : "1183"
+    }, {
+      "item" : "14",
+      "count" : "1168"
+    }, {
+      "item" : "13",
+      "count" : "1162"
+    }, {
+      "item" : "9",
+      "count" : "1158"
+    }, {
+      "item" : "6",
+      "count" : "1158"
+    }, {
+      "item" : "7",
+      "count" : "1145"
+    }, {
+      "item" : "15",
+      "count" : "1140"
+    }, {
+      "item" : "16",
+      "count" : "1093"
+    }, {
+      "item" : "17",
+      "count" : "1076"
+    }, {
+      "item" : "5",
+      "count" : "1063"
+    }, {
+      "item" : "4",
+      "count" : "1057"
+    }, {
+      "item" : "18",
+      "count" : "1044"
+    }, {
+      "item" : "20",
+      "count" : "994"
+    }, {
+      "item" : "21",
+      "count" : "979"
+    }, {
+      "item" : "22",
+      "count" : "970"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380034,
+  "name" : "HR15_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 2 PM to 3 PM",
+  "fieldName" : "hr15_total",
+  "position" : 20,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253544,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "33944",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5575"
+    }, {
+      "item" : "0",
+      "count" : "1353"
+    }, {
+      "item" : "10",
+      "count" : "1151"
+    }, {
+      "item" : "11",
+      "count" : "1137"
+    }, {
+      "item" : "12",
+      "count" : "1118"
+    }, {
+      "item" : "9",
+      "count" : "1102"
+    }, {
+      "item" : "13",
+      "count" : "1097"
+    }, {
+      "item" : "8",
+      "count" : "1082"
+    }, {
+      "item" : "6",
+      "count" : "1063"
+    }, {
+      "item" : "14",
+      "count" : "1055"
+    }, {
+      "item" : "7",
+      "count" : "1037"
+    }, {
+      "item" : "16",
+      "count" : "1033"
+    }, {
+      "item" : "15",
+      "count" : "1029"
+    }, {
+      "item" : "17",
+      "count" : "1017"
+    }, {
+      "item" : "19",
+      "count" : "987"
+    }, {
+      "item" : "20",
+      "count" : "964"
+    }, {
+      "item" : "21",
+      "count" : "959"
+    }, {
+      "item" : "5",
+      "count" : "956"
+    }, {
+      "item" : "4",
+      "count" : "936"
+    }, {
+      "item" : "18",
+      "count" : "909"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380049,
+  "name" : "HR16_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 3 PM to 4 PM",
+  "fieldName" : "hr16_total",
+  "position" : 21,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253559,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "37913",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5573"
+    }, {
+      "item" : "0",
+      "count" : "1288"
+    }, {
+      "item" : "11",
+      "count" : "1074"
+    }, {
+      "item" : "10",
+      "count" : "1036"
+    }, {
+      "item" : "13",
+      "count" : "1031"
+    }, {
+      "item" : "12",
+      "count" : "1028"
+    }, {
+      "item" : "14",
+      "count" : "1024"
+    }, {
+      "item" : "9",
+      "count" : "1008"
+    }, {
+      "item" : "8",
+      "count" : "1007"
+    }, {
+      "item" : "7",
+      "count" : "1004"
+    }, {
+      "item" : "16",
+      "count" : "992"
+    }, {
+      "item" : "15",
+      "count" : "974"
+    }, {
+      "item" : "6",
+      "count" : "957"
+    }, {
+      "item" : "20",
+      "count" : "946"
+    }, {
+      "item" : "17",
+      "count" : "931"
+    }, {
+      "item" : "19",
+      "count" : "920"
+    }, {
+      "item" : "18",
+      "count" : "914"
+    }, {
+      "item" : "4",
+      "count" : "902"
+    }, {
+      "item" : "5",
+      "count" : "893"
+    }, {
+      "item" : "22",
+      "count" : "862"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380047,
+  "name" : "HR17_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 4 PM to 5 PM",
+  "fieldName" : "hr17_total",
+  "position" : 22,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253557,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "40816",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5570"
+    }, {
+      "item" : "0",
+      "count" : "1316"
+    }, {
+      "item" : "10",
+      "count" : "1063"
+    }, {
+      "item" : "11",
+      "count" : "1041"
+    }, {
+      "item" : "8",
+      "count" : "1005"
+    }, {
+      "item" : "13",
+      "count" : "988"
+    }, {
+      "item" : "9",
+      "count" : "983"
+    }, {
+      "item" : "12",
+      "count" : "980"
+    }, {
+      "item" : "15",
+      "count" : "962"
+    }, {
+      "item" : "7",
+      "count" : "958"
+    }, {
+      "item" : "14",
+      "count" : "936"
+    }, {
+      "item" : "18",
+      "count" : "900"
+    }, {
+      "item" : "17",
+      "count" : "892"
+    }, {
+      "item" : "16",
+      "count" : "885"
+    }, {
+      "item" : "6",
+      "count" : "880"
+    }, {
+      "item" : "5",
+      "count" : "875"
+    }, {
+      "item" : "4",
+      "count" : "870"
+    }, {
+      "item" : "20",
+      "count" : "869"
+    }, {
+      "item" : "19",
+      "count" : "859"
+    }, {
+      "item" : "21",
+      "count" : "844"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380026,
+  "name" : "HR18_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 5 PM to 6 PM",
+  "fieldName" : "hr18_total",
+  "position" : 23,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253536,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "41383",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5582"
+    }, {
+      "item" : "0",
+      "count" : "1334"
+    }, {
+      "item" : "8",
+      "count" : "1073"
+    }, {
+      "item" : "9",
+      "count" : "1048"
+    }, {
+      "item" : "12",
+      "count" : "1028"
+    }, {
+      "item" : "11",
+      "count" : "1007"
+    }, {
+      "item" : "6",
+      "count" : "984"
+    }, {
+      "item" : "14",
+      "count" : "984"
+    }, {
+      "item" : "7",
+      "count" : "977"
+    }, {
+      "item" : "10",
+      "count" : "974"
+    }, {
+      "item" : "13",
+      "count" : "955"
+    }, {
+      "item" : "15",
+      "count" : "932"
+    }, {
+      "item" : "16",
+      "count" : "927"
+    }, {
+      "item" : "18",
+      "count" : "921"
+    }, {
+      "item" : "5",
+      "count" : "919"
+    }, {
+      "item" : "17",
+      "count" : "899"
+    }, {
+      "item" : "19",
+      "count" : "885"
+    }, {
+      "item" : "4",
+      "count" : "842"
+    }, {
+      "item" : "24",
+      "count" : "825"
+    }, {
+      "item" : "20",
+      "count" : "819"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380014,
+  "name" : "HR19_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 6 PM to 7 PM",
+  "fieldName" : "hr19_total",
+  "position" : 24,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253524,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "32475",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5574"
+    }, {
+      "item" : "0",
+      "count" : "1543"
+    }, {
+      "item" : "8",
+      "count" : "1293"
+    }, {
+      "item" : "5",
+      "count" : "1231"
+    }, {
+      "item" : "7",
+      "count" : "1226"
+    }, {
+      "item" : "11",
+      "count" : "1195"
+    }, {
+      "item" : "6",
+      "count" : "1192"
+    }, {
+      "item" : "9",
+      "count" : "1189"
+    }, {
+      "item" : "12",
+      "count" : "1174"
+    }, {
+      "item" : "10",
+      "count" : "1172"
+    }, {
+      "item" : "4",
+      "count" : "1162"
+    }, {
+      "item" : "13",
+      "count" : "1149"
+    }, {
+      "item" : "14",
+      "count" : "1123"
+    }, {
+      "item" : "19",
+      "count" : "1071"
+    }, {
+      "item" : "15",
+      "count" : "1042"
+    }, {
+      "item" : "3",
+      "count" : "1034"
+    }, {
+      "item" : "16",
+      "count" : "1021"
+    }, {
+      "item" : "17",
+      "count" : "1005"
+    }, {
+      "item" : "18",
+      "count" : "997"
+    }, {
+      "item" : "21",
+      "count" : "975"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380020,
+  "name" : "HR20_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 7 PM to 8 PM",
+  "fieldName" : "hr20_total",
+  "position" : 25,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253530,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "23867",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5563"
+    }, {
+      "item" : "0",
+      "count" : "1926"
+    }, {
+      "item" : "4",
+      "count" : "1757"
+    }, {
+      "item" : "6",
+      "count" : "1618"
+    }, {
+      "item" : "5",
+      "count" : "1599"
+    }, {
+      "item" : "8",
+      "count" : "1587"
+    }, {
+      "item" : "3",
+      "count" : "1555"
+    }, {
+      "item" : "7",
+      "count" : "1549"
+    }, {
+      "item" : "12",
+      "count" : "1546"
+    }, {
+      "item" : "10",
+      "count" : "1509"
+    }, {
+      "item" : "9",
+      "count" : "1474"
+    }, {
+      "item" : "11",
+      "count" : "1445"
+    }, {
+      "item" : "2",
+      "count" : "1404"
+    }, {
+      "item" : "13",
+      "count" : "1399"
+    }, {
+      "item" : "15",
+      "count" : "1360"
+    }, {
+      "item" : "14",
+      "count" : "1357"
+    }, {
+      "item" : "16",
+      "count" : "1275"
+    }, {
+      "item" : "17",
+      "count" : "1241"
+    }, {
+      "item" : "18",
+      "count" : "1199"
+    }, {
+      "item" : "1",
+      "count" : "1175"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380011,
+  "name" : "HR21_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 8 PM to 9 PM",
+  "fieldName" : "hr21_total",
+  "position" : 26,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253521,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "19308",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5571"
+    }, {
+      "item" : "0",
+      "count" : "2356"
+    }, {
+      "item" : "4",
+      "count" : "2163"
+    }, {
+      "item" : "5",
+      "count" : "2146"
+    }, {
+      "item" : "3",
+      "count" : "2125"
+    }, {
+      "item" : "2",
+      "count" : "2071"
+    }, {
+      "item" : "6",
+      "count" : "2025"
+    }, {
+      "item" : "7",
+      "count" : "1995"
+    }, {
+      "item" : "8",
+      "count" : "1900"
+    }, {
+      "item" : "9",
+      "count" : "1864"
+    }, {
+      "item" : "10",
+      "count" : "1823"
+    }, {
+      "item" : "1",
+      "count" : "1717"
+    }, {
+      "item" : "12",
+      "count" : "1697"
+    }, {
+      "item" : "11",
+      "count" : "1696"
+    }, {
+      "item" : "13",
+      "count" : "1639"
+    }, {
+      "item" : "14",
+      "count" : "1529"
+    }, {
+      "item" : "15",
+      "count" : "1514"
+    }, {
+      "item" : "16",
+      "count" : "1481"
+    }, {
+      "item" : "17",
+      "count" : "1457"
+    }, {
+      "item" : "18",
+      "count" : "1439"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380041,
+  "name" : "HR22_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 9 PM to 10 PM",
+  "fieldName" : "hr22_total",
+  "position" : 27,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253551,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "17840",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5587"
+    }, {
+      "item" : "0",
+      "count" : "3057"
+    }, {
+      "item" : "3",
+      "count" : "2827"
+    }, {
+      "item" : "2",
+      "count" : "2765"
+    }, {
+      "item" : "4",
+      "count" : "2755"
+    }, {
+      "item" : "5",
+      "count" : "2566"
+    }, {
+      "item" : "6",
+      "count" : "2526"
+    }, {
+      "item" : "1",
+      "count" : "2457"
+    }, {
+      "item" : "7",
+      "count" : "2313"
+    }, {
+      "item" : "8",
+      "count" : "2154"
+    }, {
+      "item" : "9",
+      "count" : "2108"
+    }, {
+      "item" : "10",
+      "count" : "1976"
+    }, {
+      "item" : "12",
+      "count" : "1933"
+    }, {
+      "item" : "11",
+      "count" : "1924"
+    }, {
+      "item" : "13",
+      "count" : "1750"
+    }, {
+      "item" : "16",
+      "count" : "1717"
+    }, {
+      "item" : "14",
+      "count" : "1714"
+    }, {
+      "item" : "15",
+      "count" : "1693"
+    }, {
+      "item" : "17",
+      "count" : "1661"
+    }, {
+      "item" : "18",
+      "count" : "1629"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380012,
+  "name" : "HR23_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 10 PM to 11 PM",
+  "fieldName" : "hr23_total",
+  "position" : 28,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253522,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "19251",
+    "null" : "0",
+    "top" : [ {
+      "item" : "-1",
+      "count" : "5605"
+    }, {
+      "item" : "0",
+      "count" : "4340"
+    }, {
+      "item" : "2",
+      "count" : "4018"
+    }, {
+      "item" : "1",
+      "count" : "3849"
+    }, {
+      "item" : "3",
+      "count" : "3781"
+    }, {
+      "item" : "4",
+      "count" : "3441"
+    }, {
+      "item" : "5",
+      "count" : "3090"
+    }, {
+      "item" : "6",
+      "count" : "3085"
+    }, {
+      "item" : "7",
+      "count" : "2856"
+    }, {
+      "item" : "8",
+      "count" : "2654"
+    }, {
+      "item" : "9",
+      "count" : "2533"
+    }, {
+      "item" : "10",
+      "count" : "2469"
+    }, {
+      "item" : "11",
+      "count" : "2317"
+    }, {
+      "item" : "12",
+      "count" : "2273"
+    }, {
+      "item" : "14",
+      "count" : "2143"
+    }, {
+      "item" : "13",
+      "count" : "2116"
+    }, {
+      "item" : "16",
+      "count" : "2065"
+    }, {
+      "item" : "15",
+      "count" : "2050"
+    }, {
+      "item" : "18",
+      "count" : "1996"
+    }, {
+      "item" : "17",
+      "count" : "1988"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380046,
+  "name" : "HR24_TOTAL",
+  "dataTypeName" : "number",
+  "description" : "Total volume for one hour. 11 PM to Midnight",
+  "fieldName" : "hr24_total",
+  "position" : 29,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253556,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "14352",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "7171"
+    }, {
+      "item" : "1",
+      "count" : "6638"
+    }, {
+      "item" : "2",
+      "count" : "5868"
+    }, {
+      "item" : "-1",
+      "count" : "5628"
+    }, {
+      "item" : "3",
+      "count" : "4983"
+    }, {
+      "item" : "4",
+      "count" : "4711"
+    }, {
+      "item" : "5",
+      "count" : "4192"
+    }, {
+      "item" : "6",
+      "count" : "3941"
+    }, {
+      "item" : "7",
+      "count" : "3638"
+    }, {
+      "item" : "8",
+      "count" : "3532"
+    }, {
+      "item" : "9",
+      "count" : "3306"
+    }, {
+      "item" : "10",
+      "count" : "3263"
+    }, {
+      "item" : "11",
+      "count" : "3115"
+    }, {
+      "item" : "12",
+      "count" : "3086"
+    }, {
+      "item" : "13",
+      "count" : "2931"
+    }, {
+      "item" : "14",
+      "count" : "2846"
+    }, {
+      "item" : "15",
+      "count" : "2773"
+    }, {
+      "item" : "18",
+      "count" : "2682"
+    }, {
+      "item" : "16",
+      "count" : "2659"
+    }, {
+      "item" : "17",
+      "count" : "2651"
+    } ],
+    "smallest" : "-1",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380029,
+  "name" : "AM_PK_VOL",
+  "dataTypeName" : "number",
+  "description" : "Peak volume for hour in AM peak",
+  "fieldName" : "am_pk_vol",
+  "position" : 30,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253539,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "36376",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "6754"
+    }, {
+      "item" : "12",
+      "count" : "1000"
+    }, {
+      "item" : "13",
+      "count" : "974"
+    }, {
+      "item" : "14",
+      "count" : "974"
+    }, {
+      "item" : "10",
+      "count" : "966"
+    }, {
+      "item" : "8",
+      "count" : "955"
+    }, {
+      "item" : "18",
+      "count" : "944"
+    }, {
+      "item" : "11",
+      "count" : "942"
+    }, {
+      "item" : "16",
+      "count" : "940"
+    }, {
+      "item" : "17",
+      "count" : "933"
+    }, {
+      "item" : "15",
+      "count" : "908"
+    }, {
+      "item" : "9",
+      "count" : "906"
+    }, {
+      "item" : "19",
+      "count" : "893"
+    }, {
+      "item" : "20",
+      "count" : "886"
+    }, {
+      "item" : "22",
+      "count" : "837"
+    }, {
+      "item" : "27",
+      "count" : "830"
+    }, {
+      "item" : "24",
+      "count" : "827"
+    }, {
+      "item" : "25",
+      "count" : "823"
+    }, {
+      "item" : "7",
+      "count" : "817"
+    }, {
+      "item" : "21",
+      "count" : "810"
+    } ],
+    "smallest" : "0",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380025,
+  "name" : "AM_PK_HOUR",
+  "dataTypeName" : "text",
+  "description" : "Hour of peak volume during AM peak",
+  "fieldName" : "am_pk_hour",
+  "position" : 31,
+  "renderTypeName" : "text",
+  "tableColumnId" : 145253535,
+  "cachedContents" : {
+    "non_null" : "443612",
+    "largest" : "11:00",
+    "null" : "6572",
+    "top" : [ {
+      "item" : "11:00",
+      "count" : "141820"
+    }, {
+      "item" : "07:45",
+      "count" : "44173"
+    }, {
+      "item" : "07:30",
+      "count" : "37491"
+    }, {
+      "item" : "08:00",
+      "count" : "36720"
+    }, {
+      "item" : "10:45",
+      "count" : "25143"
+    }, {
+      "item" : "08:15",
+      "count" : "24947"
+    }, {
+      "item" : "07:15",
+      "count" : "24170"
+    }, {
+      "item" : "08:30",
+      "count" : "14802"
+    }, {
+      "item" : "10:30",
+      "count" : "13454"
+    }, {
+      "item" : "07:00",
+      "count" : "11924"
+    }, {
+      "item" : "10:00",
+      "count" : "9651"
+    }, {
+      "item" : "10:15",
+      "count" : "9435"
+    }, {
+      "item" : "08:45",
+      "count" : "8935"
+    }, {
+      "item" : "09:45",
+      "count" : "6588"
+    }, {
+      "item" : "09:00",
+      "count" : "6568"
+    }, {
+      "item" : "06:45",
+      "count" : "6242"
+    }, {
+      "item" : "09:30",
+      "count" : "5478"
+    }, {
+      "item" : "09:15",
+      "count" : "5246"
+    }, {
+      "item" : "06:30",
+      "count" : "3849"
+    }, {
+      "item" : "00:00",
+      "count" : "1625"
+    } ],
+    "smallest" : "00:00",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380040,
+  "name" : "AM_PK_FAC",
+  "dataTypeName" : "number",
+  "description" : "",
+  "fieldName" : "am_pk_fac",
+  "position" : 32,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253550,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "1",
+    "null" : "0",
+    "top" : [ {
+      "item" : "1",
+      "count" : "8783"
+    }, {
+      "item" : "0",
+      "count" : "6754"
+    }, {
+      "item" : "0.75",
+      "count" : "5503"
+    }, {
+      "item" : "0.875",
+      "count" : "3841"
+    }, {
+      "item" : "0.9166667",
+      "count" : "2335"
+    }, {
+      "item" : "0.8333333",
+      "count" : "2187"
+    }, {
+      "item" : "0.5",
+      "count" : "1889"
+    }, {
+      "item" : "0.625",
+      "count" : "1864"
+    }, {
+      "item" : "0.9375",
+      "count" : "1733"
+    }, {
+      "item" : "0.8125",
+      "count" : "1591"
+    }, {
+      "item" : "0.6666667",
+      "count" : "1410"
+    }, {
+      "item" : "0.9",
+      "count" : "1337"
+    }, {
+      "item" : "0.85",
+      "count" : "1252"
+    }, {
+      "item" : "0.8",
+      "count" : "1127"
+    }, {
+      "item" : "0.6875",
+      "count" : "1088"
+    }, {
+      "item" : "0.8928571",
+      "count" : "1032"
+    }, {
+      "item" : "0.5833333",
+      "count" : "1006"
+    }, {
+      "item" : "0.95",
+      "count" : "1004"
+    }, {
+      "item" : "0.7916667",
+      "count" : "987"
+    }, {
+      "item" : "0.90625",
+      "count" : "934"
+    } ],
+    "smallest" : "0",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380016,
+  "name" : "AM_15_HIGH",
+  "dataTypeName" : "text",
+  "description" : "",
+  "fieldName" : "am_15_high",
+  "position" : 33,
+  "renderTypeName" : "text",
+  "tableColumnId" : 145253526,
+  "cachedContents" : {
+    "non_null" : "443612",
+    "largest" : "12:00",
+    "null" : "6572",
+    "top" : [ {
+      "item" : "12:00",
+      "count" : "90641"
+    }, {
+      "item" : "08:00",
+      "count" : "43387"
+    }, {
+      "item" : "11:45",
+      "count" : "34976"
+    }, {
+      "item" : "09:00",
+      "count" : "30678"
+    }, {
+      "item" : "08:45",
+      "count" : "29426"
+    }, {
+      "item" : "08:30",
+      "count" : "27394"
+    }, {
+      "item" : "07:45",
+      "count" : "25481"
+    }, {
+      "item" : "08:15",
+      "count" : "24167"
+    }, {
+      "item" : "11:30",
+      "count" : "22908"
+    }, {
+      "item" : "11:00",
+      "count" : "20227"
+    }, {
+      "item" : "11:15",
+      "count" : "17667"
+    }, {
+      "item" : "09:15",
+      "count" : "11330"
+    }, {
+      "item" : "07:30",
+      "count" : "10325"
+    }, {
+      "item" : "10:45",
+      "count" : "8830"
+    }, {
+      "item" : "10:00",
+      "count" : "7855"
+    }, {
+      "item" : "09:30",
+      "count" : "7382"
+    }, {
+      "item" : "10:30",
+      "count" : "6212"
+    }, {
+      "item" : "09:45",
+      "count" : "5873"
+    }, {
+      "item" : "10:15",
+      "count" : "4982"
+    }, {
+      "item" : "07:15",
+      "count" : "3875"
+    } ],
+    "smallest" : "00:15",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380050,
+  "name" : "PM_PK_VOL",
+  "dataTypeName" : "number",
+  "description" : "Peak volume for hour in PM peak",
+  "fieldName" : "pm_pk_vol",
+  "position" : 34,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253560,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "41757",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "6898"
+    }, {
+      "item" : "17",
+      "count" : "785"
+    }, {
+      "item" : "16",
+      "count" : "767"
+    }, {
+      "item" : "14",
+      "count" : "759"
+    }, {
+      "item" : "20",
+      "count" : "751"
+    }, {
+      "item" : "18",
+      "count" : "748"
+    }, {
+      "item" : "22",
+      "count" : "748"
+    }, {
+      "item" : "23",
+      "count" : "734"
+    }, {
+      "item" : "15",
+      "count" : "724"
+    }, {
+      "item" : "13",
+      "count" : "724"
+    }, {
+      "item" : "25",
+      "count" : "712"
+    }, {
+      "item" : "19",
+      "count" : "701"
+    }, {
+      "item" : "11",
+      "count" : "701"
+    }, {
+      "item" : "21",
+      "count" : "692"
+    }, {
+      "item" : "24",
+      "count" : "692"
+    }, {
+      "item" : "12",
+      "count" : "678"
+    }, {
+      "item" : "31",
+      "count" : "672"
+    }, {
+      "item" : "28",
+      "count" : "668"
+    }, {
+      "item" : "35",
+      "count" : "665"
+    }, {
+      "item" : "10",
+      "count" : "652"
+    } ],
+    "smallest" : "0",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380032,
+  "name" : "PM_PK_HOUR",
+  "dataTypeName" : "text",
+  "description" : "Hour of peak volume during PM peak",
+  "fieldName" : "pm_pk_hour",
+  "position" : 35,
+  "renderTypeName" : "text",
+  "tableColumnId" : 145253542,
+  "cachedContents" : {
+    "non_null" : "443473",
+    "largest" : "23:00",
+    "null" : "6711",
+    "top" : [ {
+      "item" : "17:00",
+      "count" : "50585"
+    }, {
+      "item" : "16:45",
+      "count" : "50553"
+    }, {
+      "item" : "16:30",
+      "count" : "40206"
+    }, {
+      "item" : "17:15",
+      "count" : "25724"
+    }, {
+      "item" : "16:15",
+      "count" : "24631"
+    }, {
+      "item" : "12:00",
+      "count" : "23438"
+    }, {
+      "item" : "16:00",
+      "count" : "20006"
+    }, {
+      "item" : "15:45",
+      "count" : "18252"
+    }, {
+      "item" : "15:30",
+      "count" : "17372"
+    }, {
+      "item" : "15:15",
+      "count" : "14370"
+    }, {
+      "item" : "17:30",
+      "count" : "13180"
+    }, {
+      "item" : "15:00",
+      "count" : "12900"
+    }, {
+      "item" : "13:00",
+      "count" : "12792"
+    }, {
+      "item" : "14:45",
+      "count" : "11014"
+    }, {
+      "item" : "12:15",
+      "count" : "10467"
+    }, {
+      "item" : "14:00",
+      "count" : "10371"
+    }, {
+      "item" : "14:30",
+      "count" : "9749"
+    }, {
+      "item" : "14:15",
+      "count" : "9574"
+    }, {
+      "item" : "12:30",
+      "count" : "9457"
+    }, {
+      "item" : "12:45",
+      "count" : "8624"
+    } ],
+    "smallest" : "12:00",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380042,
+  "name" : "PM_PK_FAC",
+  "dataTypeName" : "number",
+  "description" : "",
+  "fieldName" : "pm_pk_fac",
+  "position" : 36,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253552,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "1",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "6898"
+    }, {
+      "item" : "0.75",
+      "count" : "4304"
+    }, {
+      "item" : "1",
+      "count" : "3833"
+    }, {
+      "item" : "0.875",
+      "count" : "3428"
+    }, {
+      "item" : "0.9166667",
+      "count" : "2402"
+    }, {
+      "item" : "0.9375",
+      "count" : "1854"
+    }, {
+      "item" : "0.8333333",
+      "count" : "1849"
+    }, {
+      "item" : "0.9",
+      "count" : "1351"
+    }, {
+      "item" : "0.8125",
+      "count" : "1339"
+    }, {
+      "item" : "0.625",
+      "count" : "1331"
+    }, {
+      "item" : "0.85",
+      "count" : "1193"
+    }, {
+      "item" : "0.95",
+      "count" : "1157"
+    }, {
+      "item" : "0.6666667",
+      "count" : "1140"
+    }, {
+      "item" : "0.5",
+      "count" : "1086"
+    }, {
+      "item" : "0.9285714",
+      "count" : "997"
+    }, {
+      "item" : "0.9583333",
+      "count" : "990"
+    }, {
+      "item" : "0.8",
+      "count" : "970"
+    }, {
+      "item" : "0.6875",
+      "count" : "942"
+    }, {
+      "item" : "0.90625",
+      "count" : "935"
+    }, {
+      "item" : "0.8928571",
+      "count" : "902"
+    } ],
+    "smallest" : "0",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380035,
+  "name" : "PM_15_HIGH",
+  "dataTypeName" : "text",
+  "description" : "",
+  "fieldName" : "pm_15_high",
+  "position" : 37,
+  "renderTypeName" : "text",
+  "tableColumnId" : 145253545,
+  "cachedContents" : {
+    "non_null" : "443473",
+    "largest" : "23:45",
+    "null" : "6711",
+    "top" : [ {
+      "item" : "17:30",
+      "count" : "54542"
+    }, {
+      "item" : "17:15",
+      "count" : "42602"
+    }, {
+      "item" : "17:45",
+      "count" : "34989"
+    }, {
+      "item" : "17:00",
+      "count" : "26556"
+    }, {
+      "item" : "16:45",
+      "count" : "24675"
+    }, {
+      "item" : "18:00",
+      "count" : "21331"
+    }, {
+      "item" : "16:30",
+      "count" : "17998"
+    }, {
+      "item" : "15:45",
+      "count" : "17108"
+    }, {
+      "item" : "16:15",
+      "count" : "17033"
+    }, {
+      "item" : "16:00",
+      "count" : "15260"
+    }, {
+      "item" : "13:00",
+      "count" : "15219"
+    }, {
+      "item" : "14:00",
+      "count" : "12381"
+    }, {
+      "item" : "15:15",
+      "count" : "11738"
+    }, {
+      "item" : "18:15",
+      "count" : "11378"
+    }, {
+      "item" : "15:30",
+      "count" : "11298"
+    }, {
+      "item" : "15:00",
+      "count" : "11228"
+    }, {
+      "item" : "12:45",
+      "count" : "9418"
+    }, {
+      "item" : "14:45",
+      "count" : "9338"
+    }, {
+      "item" : "13:30",
+      "count" : "8446"
+    }, {
+      "item" : "13:15",
+      "count" : "8309"
+    } ],
+    "smallest" : "00:00",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380019,
+  "name" : "MAX_8_VOL",
+  "dataTypeName" : "number",
+  "description" : "",
+  "fieldName" : "max_8_vol",
+  "position" : 38,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253529,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "272195",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "6587"
+    }, {
+      "item" : "123",
+      "count" : "150"
+    }, {
+      "item" : "74",
+      "count" : "146"
+    }, {
+      "item" : "114",
+      "count" : "144"
+    }, {
+      "item" : "76",
+      "count" : "143"
+    }, {
+      "item" : "98",
+      "count" : "143"
+    }, {
+      "item" : "115",
+      "count" : "140"
+    }, {
+      "item" : "126",
+      "count" : "139"
+    }, {
+      "item" : "72",
+      "count" : "139"
+    }, {
+      "item" : "87",
+      "count" : "139"
+    }, {
+      "item" : "158",
+      "count" : "139"
+    }, {
+      "item" : "57",
+      "count" : "139"
+    }, {
+      "item" : "132",
+      "count" : "138"
+    }, {
+      "item" : "102",
+      "count" : "137"
+    }, {
+      "item" : "101",
+      "count" : "136"
+    }, {
+      "item" : "84",
+      "count" : "135"
+    }, {
+      "item" : "127",
+      "count" : "134"
+    }, {
+      "item" : "81",
+      "count" : "134"
+    }, {
+      "item" : "104",
+      "count" : "134"
+    }, {
+      "item" : "94",
+      "count" : "134"
+    } ],
+    "smallest" : "0",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380051,
+  "name" : "MAX_8_TIME",
+  "dataTypeName" : "text",
+  "description" : "",
+  "fieldName" : "max_8_time",
+  "position" : 39,
+  "renderTypeName" : "text",
+  "tableColumnId" : 145253561,
+  "cachedContents" : {
+    "non_null" : "443705",
+    "largest" : "23:00",
+    "null" : "6479",
+    "top" : [ {
+      "item" : "11:00",
+      "count" : "31394"
+    }, {
+      "item" : "12:00",
+      "count" : "23305"
+    }, {
+      "item" : "16:45",
+      "count" : "21320"
+    }, {
+      "item" : "17:00",
+      "count" : "20239"
+    }, {
+      "item" : "11:30",
+      "count" : "17289"
+    }, {
+      "item" : "16:30",
+      "count" : "16955"
+    }, {
+      "item" : "11:15",
+      "count" : "16247"
+    }, {
+      "item" : "10:45",
+      "count" : "15143"
+    }, {
+      "item" : "11:45",
+      "count" : "13480"
+    }, {
+      "item" : "07:30",
+      "count" : "12182"
+    }, {
+      "item" : "07:45",
+      "count" : "11912"
+    }, {
+      "item" : "07:15",
+      "count" : "11857"
+    }, {
+      "item" : "10:30",
+      "count" : "11642"
+    }, {
+      "item" : "16:15",
+      "count" : "11512"
+    }, {
+      "item" : "17:15",
+      "count" : "10883"
+    }, {
+      "item" : "16:00",
+      "count" : "10059"
+    }, {
+      "item" : "15:45",
+      "count" : "9791"
+    }, {
+      "item" : "10:15",
+      "count" : "8518"
+    }, {
+      "item" : "08:00",
+      "count" : "8183"
+    }, {
+      "item" : "15:30",
+      "count" : "8170"
+    } ],
+    "smallest" : "00:00",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380018,
+  "name" : "MAX_8_FAC",
+  "dataTypeName" : "number",
+  "description" : "",
+  "fieldName" : "max_8_fac",
+  "position" : 40,
+  "renderTypeName" : "number",
+  "tableColumnId" : 145253528,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "1",
+    "null" : "0",
+    "top" : [ {
+      "item" : "0",
+      "count" : "6587"
+    }, {
+      "item" : "1",
+      "count" : "538"
+    }, {
+      "item" : "0.6666667",
+      "count" : "400"
+    }, {
+      "item" : "0.6",
+      "count" : "238"
+    }, {
+      "item" : "0.625",
+      "count" : "200"
+    }, {
+      "item" : "0.75",
+      "count" : "165"
+    }, {
+      "item" : "0.5714286",
+      "count" : "136"
+    }, {
+      "item" : "0.7142857",
+      "count" : "123"
+    }, {
+      "item" : "0.5",
+      "count" : "111"
+    }, {
+      "item" : "0.6153846",
+      "count" : "110"
+    }, {
+      "item" : "0.6363636",
+      "count" : "107"
+    }, {
+      "item" : "0.7",
+      "count" : "95"
+    }, {
+      "item" : "0.8",
+      "count" : "92"
+    }, {
+      "item" : "0.6428571",
+      "count" : "89"
+    }, {
+      "item" : "0.5833333",
+      "count" : "80"
+    }, {
+      "item" : "0.7272727",
+      "count" : "80"
+    }, {
+      "item" : "0.6923077",
+      "count" : "80"
+    }, {
+      "item" : "0.6470588",
+      "count" : "78"
+    }, {
+      "item" : "0.6315789",
+      "count" : "78"
+    }, {
+      "item" : "0.5555556",
+      "count" : "76"
+    } ],
+    "smallest" : "0",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380039,
+  "name" : "ADD_DTTM",
+  "dataTypeName" : "calendar_date",
+  "description" : "MM/DD/YYYY of record creation",
+  "fieldName" : "add_dttm",
+  "position" : 42,
+  "renderTypeName" : "calendar_date",
+  "tableColumnId" : 145253549,
+  "cachedContents" : {
+    "non_null" : "450184",
+    "largest" : "2026-09-25T14:24:38.000",
+    "null" : "0",
+    "top" : [ {
+      "item" : "2010-04-27T09:34:14.000",
+      "count" : "963"
+    }, {
+      "item" : "2010-04-27T09:34:25.000",
+      "count" : "947"
+    }, {
+      "item" : "2010-04-27T09:34:11.000",
+      "count" : "938"
+    }, {
+      "item" : "2010-04-27T09:34:23.000",
+      "count" : "936"
+    }, {
+      "item" : "2010-04-27T09:34:15.000",
+      "count" : "935"
+    }, {
+      "item" : "2010-04-27T09:34:24.000",
+      "count" : "934"
+    }, {
+      "item" : "2010-04-27T09:34:09.000",
+      "count" : "931"
+    }, {
+      "item" : "2010-04-27T09:34:20.000",
+      "count" : "930"
+    }, {
+      "item" : "2010-04-27T09:34:13.000",
+      "count" : "922"
+    }, {
+      "item" : "2010-04-27T09:34:22.000",
+      "count" : "920"
+    }, {
+      "item" : "2010-04-27T09:34:12.000",
+      "count" : "918"
+    }, {
+      "item" : "2010-04-27T09:34:21.000",
+      "count" : "915"
+    }, {
+      "item" : "2010-06-04T07:57:53.000",
+      "count" : "915"
+    }, {
+      "item" : "2010-04-27T09:34:19.000",
+      "count" : "896"
+    }, {
+      "item" : "2010-06-04T07:57:52.000",
+      "count" : "882"
+    }, {
+      "item" : "2010-04-27T09:34:16.000",
+      "count" : "878"
+    }, {
+      "item" : "2010-04-27T09:34:10.000",
+      "count" : "877"
+    }, {
+      "item" : "2010-06-04T07:57:54.000",
+      "count" : "752"
+    }, {
+      "item" : "2010-04-27T09:34:17.000",
+      "count" : "748"
+    }, {
+      "item" : "2010-06-04T07:57:55.000",
+      "count" : "736"
+    } ],
+    "smallest" : "2010-04-27T09:34:09.000",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+}, {
+  "id" : 570380048,
+  "name" : "MOD_DTTM",
+  "dataTypeName" : "calendar_date",
+  "description" : "MM/DD/YYYY of record modification",
+  "fieldName" : "mod_dttm",
+  "position" : 44,
+  "renderTypeName" : "calendar_date",
+  "tableColumnId" : 145253558,
+  "cachedContents" : {
+    "non_null" : "0",
+    "null" : "450184",
+    "count" : "450184",
+    "cardinality" : "450184"
+  },
+  "format" : { }
+} ]
